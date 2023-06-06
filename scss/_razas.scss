@@ -1,0 +1,25 @@
+.body_raza {
+    margin-top: 3.6rem;
+}
+
+.banner_lupa {
+    padding-bottom: 10px;
+}
+
+/*grilla_razas*/
+
+.nombre_raza {
+    font-size: 1rem;
+    text-align: center;
+    color: #4658a4;
+    padding: 5px;
+}
+
+#grilla_razas {
+    display: grid;
+    grid-template-areas: 
+    "img_perro img_perro"
+    "nombre_raza nombre_raza";
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5px;
+}

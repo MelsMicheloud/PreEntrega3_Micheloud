@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.png" type="favicon web">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,600&display=swap" rel="stylesheet">
+    <!--link bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--Link AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Link Animate-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--link mi css-->
+    <link rel="stylesheet" href="../css/styles.css">
+    <meta name="description" content="Ellos se merecen el amor de una familia. Conoce las historias de los perros en adopción y ¡Cambia una vida!">
+    <meta name="keywords" content="amigos caninos, perros, canes, cuidado, perros felices, razas caninas, raza, razas de perros, animales domésticos, perros de raza, perros en adopción, adopta dog, love dogs, adoptar">
+
+    <title>PetLover | Adoptame</title>
+</head>
+
+<body class="body_adotame">
+    <header class="cabecera">
+        <section>
+            <nav class="navbar navbar-dark fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../img/logo_petlover_horizontal_1.png" alt="logo-petlover" class="logo-header">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <img src="../img/logo_petlover.png" alt="logo_menudesplegable">
+                            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">¡Hola!</h5>
+                            <h6 class="offcanvas-title" id="offcanvasDarkNavbarLabel">petlover@company.com</h6>
+                    </div>
+                    
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="razas.html">Razas</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="cuidados.html">Cuidados</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="alimentacion.html">Alimentación</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="adoptame.html">Adoptame</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+
+    <section>
+        <div id="grilla_banner">
+            <h1 class="titulo animate__animated animate__fadeInDown">Mi raza favorita es RESCATADO!</h1>
+            <p class="text_portada animate__animated animate__fadeIn">Adoptar es un actor de amor y responsabilidad.
+            Brindales una segunda oportunidad…Conocer el amor es tener un perrito en casa.</p>
+            <img class="img_portada" data-aos="fade-left" src="../img/perro_adopcion_04.png" alt="slider_razas_de_perros">
+        </div>
+    </section>
+    
+    <section>
+        <div class="grid-adop">
+            <div class="item item_1">
+                <img src="../img/adop_ilust_1.png" alt="img_ilus_perro">
+            </div>
+            <div class="item item_2">
+                <h3>Nuestra Misión</h3>
+                <p>Como familia PetLover, nos propusimos acompañarte desde el momento en que piensas en adoptar.
+                Dale la bienvenida a un perro adoptado en tu hogar!
+                Los amigos no se compran.</p>
+            </div>
+            <div class="item item_3">
+                <img src="../img/adop_ilust_2.png" alt="img_ilus_perro">
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <h4>Ingresa tus datos y postulate para la adopción</h4>
+        <h5>Formulario</h5>
+    </section>
+
+    <main>
+        <section class="form">
+            <article>
+                <form>
+                    <div class="campos">
+                        <label for="nombreApellido">Nombre y Apellido</label>
+                        <input type="text" id="nombreApellido" placeholder="Tu nombre completo" required>
+                    </div>
+
+                    <div class="campos">
+                        <label for="dni">DNI</label>
+                        <input type="number" id="dni">
+                    </div>
+
+                    <div class="campos">
+                        <label for="telf">Número de teléfono</label>
+                        <input type="tel" id="telf">
+                    </div>
+                    
+                    <div class="campos">
+                        <label for="correo">Correo Electrónico</label>
+                        <input type="email" id="correo" placeholder="Tu e-mail" required>
+                    </div>
+
+                    <section class="form_1">
+                        <div class="campos_1">
+                            <p>¿Qué tipo de vivienda habitas?</p>
+                            <section>
+                                <label for="casa">Casa</label>
+                                <input type="radio" name="vivienda" id="casa">
+                                
+                                <label for="departamento">Departamento</label>
+                                <input type="radio" name="vivienda" id="departamento">
+                            </section>
+                        </div>
+                        <div class="campos_1">
+                            <p>¿Qué tipo de perro quieres adoptar?</p>
+                            <section>
+                                <label for="pequeño">Pequeño</label>
+                                <input type="radio" name="perro" id="pequeño">
+                                
+                                <label for="mediano">Mediano</label>
+                                <input type="radio" name="perro" id="mediano">  
+                
+                                <label for="grande">Grande</label>
+                                <input type="radio" name="perro" id="grande">
+                            </section> 
+                        </div>
+                    
+                        <div class="campos_1">
+                            <p>Contanos tus motivos para adoptar un perro</p>
+                            <textarea id="mensaje"></textarea>
+                            <input type="reset" value="Limpiar Formulario">
+                            <input type="submit" value="Enviar">
+                        </div>
+                    </section>
+                
+                </form>
+
+    <footer>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Menu
+                    </button>
+                </h2>
+
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <nav class="nav_footer">
+                            <ul>
+                                <li>
+                                    <a href="../pages/razas.html">Razas</a>
+                                </li>
+                                <li>
+                                    <a href="../pages/cuidados.html">cuidados</a>
+                                </li>
+                                <li>
+                                    <a href="../pages/alimentacion.html">Alimentacion</a>
+                                </li>
+                                <li>
+                                    <a href="../pages/adoptame.html">Adoptame</a>
+                                </li>
+                            </ul>
+                        </nav>     
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Adopción
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <nav class="nav_footer">
+                            <ul>
+                                <li>Titulo 1</li>
+                                <li>Titulo 2</li>
+                                <li>Titulo 3</li>
+                                <li>Titulo 4</li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="redes_footer">
+            <img src="../img/icono_facebook.png" alt="facebook">
+            <img src="../img/icono_instagram.png" alt="instagram">
+            <img src="../img/icono_twitter.png" alt="Twitter">
+        </div>
+    </footer>
+
+<!--SPRIPT BOOTSTRAPP JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<!--Script AOS JS-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>

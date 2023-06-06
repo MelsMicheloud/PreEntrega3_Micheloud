@@ -1,0 +1,586 @@
+/**{ 
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Rubik', sans-serif;
+}*/
+
+
+/*header*/
+/*.logo-header {
+    height: 2rem;
+}
+
+.navbar {
+    background-color: #F7F5EA;
+    justify-content: flex-start;
+}*/
+
+/*.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+}*/
+
+
+/*barra header*/
+/*.container-fluid {
+    background-color: #F7F5EA;
+}
+
+.offcanvas-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-close {
+    margin-left: 240px;
+    background-color:#60A97A;
+}*/
+
+
+
+/*icono menú hamburguesa*/
+/*.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2870, 88, 165, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+    color: #F7F5EA;
+    border: none;
+}*/
+
+/*menu desplegable*/
+
+/*.offcanvas-header img {
+    height: 6rem;
+}*/
+
+/*.offcanvas-header {
+    background-color: #F7F5EA;
+}*/
+
+/*.offcanvas-header {
+    color: #4658a4;
+    font-family: Rubik;
+    font-weight: 600;
+}*/
+
+/*.offcanvas-body{
+    background-color: #f7f5ea;
+}*/
+/*.navbar-nav .nav-link.active {
+    color: rgb(96, 169, 122);
+}
+
+.nav-link {
+    color: #4658a4;
+    font-family: Rubik;
+    font-weight: 500;
+}
+
+.navbar-nav li {
+    margin-bottom: -5px;
+}*/
+
+/*SLIDER HOME PORTADA*/
+
+/*.slider {
+    padding-top: 3.6rem;
+}*/
+
+/*HUELLITAS - NAV*/
+/*.nav_huellitas ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 1rem;
+    padding-left: 0;
+}
+
+.nav-item {
+    list-style: none;
+    height: 50px;
+    width: 50px;
+}*/
+
+/*LAS RAZAS MAS BUSCADAS*/
+
+/*h2 {
+    font-family: rubik;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4658a4;
+    text-align: center;
+    margin: 1rem;
+}*/
+
+/*CARDS*/
+
+/*.card_conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card_tarjetas {
+    border: none;
+    background-color:ghostwhite;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.card_tarjetas img {
+    margin-left: 0.5rem;
+    width: 14rem;
+}
+
+.card-title {
+    font-family: rubik;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:#60A97A;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.card-text {
+    font-family: rubik;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 15px;
+}
+
+.card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}*/
+
+
+/*RAZA DESTACADA DEL MES*/
+
+/*h3 {
+    font-family: rubik;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #60A97A;
+    text-align: left;
+    margin-top: 1.5rem;
+    margin-bottom: 1.2rem;
+    margin-left: 2.3rem;
+    
+}
+
+p { 
+    font-family: rubik;
+    font-size: 1.1rem;
+    color:#4658a4;
+    text-align: justify;
+    margin: 15px 30px;
+}
+.raza_destacada_del_mes {
+    display: grid;
+    grid-template-rows: 200px 50px 350px;
+    background-color: #F7F5EA;
+    margin-top: 1.5rem;
+}*/
+
+/*FOOTER*/
+
+/*footer {
+    margin-top: 10px;
+}
+.accordion-button {
+    font-weight: 500;
+    color: #4658a4;
+}*/
+
+/*.nav_footer li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #4658a4;
+}
+
+.nav_footer a {
+    text-decoration: none;
+    color: #4658a4;
+}*/
+
+/*.accordion-body img {
+    height: 50px;
+}
+
+.accordion-collapse {
+    padding-top: 10px;
+    padding-left: 25px;
+}*/
+
+/*SECCION - RAZAS*/
+
+/*.body_raza {
+    margin-top: 70px;
+}*/
+
+/*h1 {
+    font-family: rubik;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:#4658a4;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.text_portada {
+    font-size: 1rem;
+    text-align: center;
+}*/
+
+/*grilla portada*/
+/*#grilla_banner {
+    display: grid;
+    grid-template-areas: 
+    "titulo"
+    "text_portada"
+    "img_portada"
+    "img_portada"
+    "img_portada"
+    "img_portada";
+    grid-template-rows: 50px auto 75px;
+    grid-template-columns: 1fr;
+    row-gap: 5px;
+}
+
+.titulo {
+    grid-area: titulo;
+}
+
+.text_portada {
+    grid-area: text_portada;
+}
+
+.img_portada {
+    grid-area: img_portada;
+}*/
+
+/*banner perro lupa*/
+
+.banner_lupa {
+    padding-bottom: 10px;
+}
+.banner_cuidados {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*FILTRO RAZAS*/
+.container-labels{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.container-labels label {
+    cursor: pointer;
+    padding: 8px 15px;
+    background-color: #F7F5EA;
+    color: #4658a4;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#grandes, #medianas, #pequeñas, #todas {
+    display: none;
+}
+
+#grandes:checked ~ .grid-item .grandes
+#medianas:checked ~ .grid-item .medianas
+#pequeñas:checked ~ .grid-item .pequeñas {
+    display: grid;
+}
+
+
+/*grilla_razas*/
+
+/*.nombre_raza {
+    font-size: 1rem;
+    text-align: center;
+    color: #4658a4;
+    padding: 5px;
+}
+
+#grilla_razas {
+    display: grid;
+    grid-template-areas: 
+    "img_perro img_perro"
+    "nombre_raza nombre_raza";
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5px;
+}*/
+
+/*SECCIÓN CUIDADOS*/
+
+/*.body_cuidados {
+    margin-top: 70px;
+}*/
+
+/*SECCIÓN ALIMENTACIÓN*/
+/*.body_alimentacion {
+    margin-top: 70px;
+}*/
+
+.tipo_alimentacion img {
+
+    height: 100px;
+}
+
+.tipo_alimentacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.iconos-tipo-al {
+
+    font-size: 0.6rem;
+    text-align: center;
+    color:#60A97A;
+}
+
+/*SECCION ADOPTAME*/
+
+/*.bodi_adotame {
+    margin-top: 70PX;
+}*/
+
+
+
+/*MEDIAS - MOBILE*/
+
+/*@media (min-width: 375px) {
+    .navbar-nav li {
+        margin-bottom: -10px;
+    }
+    
+    .btn-close {
+        margin-left: 300px;
+        background-color:#60A97A;
+    }
+
+    .nav_huellitas ul {
+        gap: 35px;
+    }
+
+    .nav-item {
+        height: 60px;
+        width: 60px;
+    }
+
+    .card_tarjetas img {
+        margin-left: 2.3rem;
+    }
+
+}*/
+
+@media (min-width: 480px) {
+    .btn-close {
+        margin-left: 315px;
+        background-color:#60A97A;
+    }
+
+    .card_tarjetas img {
+        margin-left: 4.7rem;
+    }
+
+    .raza_destacada_del_mes {
+        grid-template-rows: 200px 50px 300px;
+    }
+
+}
+
+/*MEDIAS- TABLET*/
+
+@media (min-width: 768px) {
+    .navbar-nav li {
+        margin-bottom: -30px;
+    }
+
+    .nav_huellitas ul {
+        gap: 70px;
+    }
+
+    .nav-item {
+        height: 80px;
+        width: 80px;
+    }
+
+    .card_conteiner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    
+    .card_tarjetas img {
+        margin-left: 2.2rem;
+    }
+
+    .card-title {
+        margin-left: 1.4rem;
+    }
+
+    .card-text {
+        margin: 21px;
+    }
+
+    .raza_destacada_del_mes {
+        grid-template-rows: 200px 50px 400px;
+    }
+
+    #grilla_banner {
+        grid-template-areas: 
+        "titulo img_portada"
+        "text_portada img_portada"
+        "text_portada img_portada";
+        grid-template-columns: repeat(2 ,1fr);
+        margin-bottom: -50px;
+    }
+
+    .img_portada {
+        padding-top: 10px;
+        height: 330px;
+    }
+
+    h1 {
+        margin: 3rem;
+    }
+
+    .text_portada {
+        font-size: 1rem;
+        text-align: center;
+        margin: 80px;
+    }
+
+    #grilla_razas {
+        grid-template-areas: 
+        "img_perro img_perro img_perro img_perro img_perro"
+        "nombre_raza nombre_raza nombre_raza nombre_raza nombre_raza";
+        grid-template-columns: repeat(5, 1fr);
+    }
+    
+}
+
+
+/*MEDIAS- desktop*/
+
+@media (min-width: 1024px) {
+    .nav_huellitas ul {
+        gap: 90px;
+    }
+
+    .nav-item {
+        height: 80px;
+        width: 80px;
+    }
+
+    .card_conteiner {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .card_tarjetas img {
+        width: 11rem;
+        margin-left: 0.7rem;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    
+    .card-text {
+        font-family: rubik;
+        font-size: 1rem;
+        text-align: justify;
+        font-weight: 300;
+        margin: 20px;
+    }
+
+    .img_golden_dest {
+        width: 45%;
+        margin-left: 290px;
+    }
+    
+    .raza_destacada_del_mes {
+        grid-template-rows: 200px 50px 200px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card_tarjetas img {
+        width: 10rem;
+        margin-left: 2rem;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    
+    .card-text {
+        font-family: rubik;
+        font-size: 1rem;
+        text-align: justify;
+        font-weight: 300;
+        margin: 15px;
+    }
+
+    .img_golden_dest {
+        width: 45%;
+        margin-left: 370px;
+    }
+    
+    .raza_destacada_del_mes {
+        grid-template-rows: 200px 50px 300px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .card_tarjetas img {
+        width: 13rem;
+        margin-left: 2.5rem;
+    }
+
+    .img_portada {
+        padding-top: 10px;
+        margin-left: 90px;
+        height: 400px;
+        }
+
+    h1 {
+        margin: 3rem;
+        margin-left: 50px;
+    }
+
+    .text_portada {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 80px;
+    }
+
+}

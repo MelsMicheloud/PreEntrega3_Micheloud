@@ -1,0 +1,205 @@
+*{ 
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    height: 100vh;
+    font-family: $fuente-principal;
+}
+
+/*HEADER*/
+.cabecera {
+    .navbar {
+        background-color: $beige;
+        justify-content: flex-start;
+    }
+
+    .logo-header {
+        height: 2rem;
+    }
+
+    .navbar-toggler {
+        color: $beige;
+        border: none;
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2870, 88, 165, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+        
+    }
+
+    .container-fluid {
+        background-color: $beige;
+    }
+
+    .offcanvas-header {
+        background-color: $beige;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: $azul;
+        font-family: $fuente-principal;
+        font-weight: 600;
+            img {
+                height: 6rem;
+            }
+    }
+
+    .btn-close {
+        margin-left: 240px;
+        background-color:$verde;
+    }
+
+    .offcanvas-body{
+        background-color: $beige;
+    }
+
+    .navbar-nav .nav-link.active {
+        color: $verde;
+        li {
+            margin-bottom: -5px;
+        }
+    }
+
+    .nav-link {
+        color: $azul;
+        font-family: $fuente-principal;
+        font-weight: 500;
+    }
+
+}
+
+/*Items nav seccion inicio / alimentacion*/
+.nav_huellitas ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 1rem;
+    padding-left: 0;
+
+    img {
+        border-radius: 50%;
+        box-shadow: 0 0 0 5px rgba(70, 88, 165, .1);
+        transition: .2s;
+    }
+
+    li {
+        list-style: none;
+        height: 50px;
+        width: 50px;
+    }
+}
+.nav_huellitas img:hover{
+    box-shadow: 0 0 0 7px rgba(70, 88, 165, .3);
+}
+
+/*PORTADA Razas|Cuidados|Alimentacion|Adoptame*/
+
+h1 {
+    font-family: $fuente-principal;
+    font-size: $fuente-mediana;
+    font-weight: 600;
+    color: $azul;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.text_portada {
+    font-size: $fuente-chica;
+    text-align: center;
+}
+
+#grilla_banner {
+    display: grid;
+    grid-template-areas: 
+    "titulo"
+    "text_portada"
+    "img_portada"
+    "img_portada"
+    "img_portada"
+    "img_portada";
+    grid-template-rows: 50px auto 75px;
+    grid-template-columns: 1fr;
+    row-gap: 5px;
+}
+
+.titulo {
+    grid-area: titulo;
+}
+
+.text_portada {
+    grid-area: text_portada;
+}
+
+.img_portada {
+    grid-area: img_portada;
+}
+
+/*FOOTER*/
+footer {
+    margin-top: 120px;
+}
+
+#accordionExample {
+    .accordion-button {
+        font-weight: 500;
+        color: $azul;
+    }
+
+    .nav_footer li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: $azul;
+
+        a {
+            text-decoration: none;
+            color: $azul;
+        }
+    }
+
+    .accordion-collapse {
+        padding-top: 10px;
+        padding-left: 25px;
+    }
+
+    .accordion-body img {
+        height: 50px;
+    }
+}
+
+.redes_footer {
+    margin-left: 80px;
+
+    img {
+    width: 2.5rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    }
+}
+
+/*MEDIAS - MOBILE*/
+@media (min-width: 375px) {
+    .navbar-nav li {
+        margin-bottom: -10px;
+    }
+    
+    .btn-close {
+        margin-left: 300px;
+        background-color:#60A97A;
+    }
+}
+
+@media (min-width: 480px) {
+    .redes_footer {
+        margin-left: 300px;
+    }
+}
+
