@@ -80,7 +80,7 @@ body {
     flex-direction: row;
     justify-content: center;
     gap: 20px;
-    padding-top: 1rem;
+    padding-top: $margen-mediano;
     padding-left: 0;
 
     img {
@@ -143,7 +143,7 @@ h1 {
 
 /*FOOTER*/
 footer {
-    margin-top: 120px;
+    margin-top: 20px;
 }
 
 #accordionExample {
@@ -175,13 +175,15 @@ footer {
 }
 
 .redes_footer {
-    margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+    gap: 20px;
 
     img {
     width: 2.5rem;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    margin-left: 10px;
     }
 }
 
@@ -197,9 +199,4 @@ footer {
     }
 }
 
-@media (min-width: 480px) {
-    .redes_footer {
-        margin-left: 300px;
-    }
-}
 

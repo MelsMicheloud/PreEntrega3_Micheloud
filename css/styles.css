@@ -72,7 +72,7 @@ body {
   flex-direction: row;
   justify-content: center;
   gap: 20px;
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-left: 0;
 }
 .nav_huellitas ul img {
@@ -127,7 +127,7 @@ h1 {
 
 /*FOOTER*/
 footer {
-  margin-top: 120px;
+  margin-top: 20px;
 }
 
 #accordionExample .accordion-button {
@@ -153,13 +153,15 @@ footer {
 }
 
 .redes_footer {
-  margin-left: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 50px;
+  gap: 20px;
 }
 .redes_footer img {
   width: 2.5rem;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  margin-left: 10px;
 }
 
 /*MEDIAS - MOBILE*/
@@ -170,11 +172,6 @@ footer {
   .btn-close {
     margin-left: 300px;
     background-color: #60A97A;
-  }
-}
-@media (min-width: 480px) {
-  .redes_footer {
-    margin-left: 300px;
   }
 }
 /*INICIO*/
@@ -320,12 +317,11 @@ p {
 }
 
 .container_art {
-  display: block;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*height: 100vh;*/
   font-family: "Rubik", sans-serif;
-  padding: 20px 0px;
 }
 
 .card-container-art {
@@ -408,9 +404,9 @@ p {
 
 .grid-alim {
   display: grid;
-  width: 80%;
-  height: 500px;
-  margin: 10px auto;
+  /*width: 80%;
+  height: 500px;*/
+  margin: 30px auto;
   grid-column: 1fr;
   grid-template-rows: repeat(3, 1fe);
   grid-template-areas: "item1 item1 item1" "item2 item2 item2" "item3 item3 item3";
@@ -426,7 +422,6 @@ p {
 
 .item3 {
   grid-area: item3;
-  margin-bottom: 10px;
 }
 .item3 img {
   width: 100%;
@@ -446,8 +441,9 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin-bottom: -180px;
+  /*height: 100vh;*/
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .contenedor_art figure {
   position: relative;

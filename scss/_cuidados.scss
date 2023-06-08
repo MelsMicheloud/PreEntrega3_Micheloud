@@ -8,12 +8,12 @@
 }
 
 .container_art {
-    display: block;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*height: 100vh;*/
     font-family: $fuente-principal;
-    padding: 20px 0px;
+    //padding: 10px 0px;
 }
 
 .card-container-art {
