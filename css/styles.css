@@ -165,13 +165,20 @@ footer {
 }
 
 /*MEDIAS - MOBILE*/
-@media (min-width: 375px) {
+@media (min-width: 425px) {
   .navbar-nav li {
     margin-bottom: -10px;
   }
   .btn-close {
-    margin-left: 300px;
+    margin-left: 400px;
     background-color: #60A97A;
+  }
+  .nav_huellitas ul {
+    gap: 35px;
+  }
+  .nav-item {
+    height: 60px;
+    width: 60px;
   }
 }
 /*INICIO*/
@@ -190,42 +197,42 @@ h2 {
 }
 
 /*Cards*/
-.card_conteiner {
+.card-conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card_tarjetas {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-}
-.card_conteiner .card_tarjetas {
+  width: 80%;
   border: none;
   background-color: ghostwhite;
-  width: 80%;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding: 10px 25px;
   border-radius: 3%;
+  margin: 10px 0px;
 }
-.card_conteiner .card_tarjetas img {
-  width: 12rem;
-  height: auto;
-  justify-content: center;
-  margin: 10px 25px;
+.card_tarjetas img {
+  width: 60%;
 }
-.card_conteiner .card-title {
+.card_tarjetas .card-title- {
   font-family: "Rubik", sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
   color: #06ab78;
-  margin-top: 1rem;
-  margin-left: 1rem;
+  margin: 0.5rem 0rem;
 }
-.card_conteiner .card-text {
+.card_tarjetas .card-text- {
   font-family: "Rubik", sans-serif;
   font-size: 1rem;
   font-weight: 300;
   margin: 15px;
   overflow: hidden;
-  text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
@@ -258,33 +265,6 @@ p {
   margin: 15px 30px;
 }
 
-/*MEDIAS - MOBILE*/
-@media (min-width: 375px) {
-  .nav_huellitas ul {
-    gap: 35px;
-  }
-  .nav-item {
-    height: 60px;
-    width: 60px;
-  }
-  .card_tarjetas img {
-    margin: 10px 150px;
-  }
-}
-@media (min-width: 480px) {
-  .btn-close {
-    margin-left: 315px;
-    background-color: #60A97A;
-  }
-  /*.card_tarjetas {
-      img {
-      margin-left: 200px;
-      }
-  }*/
-  .raza_destacada_del_mes {
-    grid-template-rows: 200px 50px 300px;
-  }
-}
 .body_raza {
   margin-top: 3.6rem;
 }
@@ -350,10 +330,9 @@ p {
 }
 .header-card h4 {
   color: #06ab78;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1rem;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  text-align: center;
 }
 
 .header-card img:hover {
@@ -366,12 +345,13 @@ p {
 }
 .descripcion-art h5 {
   color: #eda92e;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1rem;
   text-align: center;
   margin: 5px 10px;
 }
 .descripcion-art p {
+  color: #06ab78;
   text-align: center;
   margin: 10px 10px;
   overflow: hidden;
@@ -386,7 +366,7 @@ p {
   margin-top: 10px;
   margin-bottom: 15px;
   padding: 5px;
-  background-color: #4658a5;
+  background-color: #06ab78;
   color: #F7F5EA;
   border-radius: 10%;
   border: none;
@@ -479,10 +459,11 @@ p {
   margin-top: 70px;
   margin-bottom: 15px;
 }
-.contenedor_art figure .capa h3 {
-  color: #06ab78;
-  font-weight: 400;
-  margin-bottom: 20px;
+.contenedor_art .titulo_capa {
+  color: black;
+}
+.contenedor_art .text_capa {
+  color: black;
 }
 
 .body_adotame {
@@ -493,12 +474,11 @@ p {
   max-width: 100%;
   display: grid;
   width: 80%;
-  height: 500px;
   margin: 10px auto;
   grid-column: 1fr;
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: "item_1 item_1 item_1" "item_2 item_2 item_2" "item_3 item_3 item_3";
-  margin-bottom: 300px;
+  margin-bottom: 10px;
 }
 
 .item_1 {
@@ -516,10 +496,12 @@ p {
 }
 .item_2 p {
   text-align: center;
+  color: rgba(221, 128, 112, 0.7);
 }
 .item_2 h3 {
   text-align: center;
   padding-right: 35px;
+  color: #dd8070;
 }
 
 .item_3 {
@@ -528,8 +510,7 @@ p {
   align-items: center;
 }
 .item_3 img {
-  margin-top: 15px;
-  margin-bottom: 50px;
+  margin-top: 5px;
 }
 
 .item {
@@ -541,16 +522,15 @@ p {
 
 h4 {
   font-weight: 600;
-  color: #DD8070;
+  color: #dd8070;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin: 10px 30px;
 }
 
 h5 {
-  font-weight: 800;
+  font-weight: 500;
   font-size: 2rem;
-  color: #eda92e;
+  color: rgba(221, 128, 112, 0.7);
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -568,6 +548,7 @@ form .campos {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: #dd8070;
 }
 
 .form_1 .campos_1 {
@@ -581,10 +562,13 @@ form .campos {
   text-align: center;
 }
 .form_1 .campos_1 input {
-  background-color: #DD8070;
+  background-color: #dd8070;
   color: #F7F5EA;
   border: none;
   padding: 0.3rem;
+}
+.form_1 .campos_1 .text_camp {
+  color: #dd8070;
 }
 
 /*# sourceMappingURL=styles.css.map */

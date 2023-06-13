@@ -188,14 +188,23 @@ footer {
 }
 
 /*MEDIAS - MOBILE*/
-@media (min-width: 375px) {
+@media (min-width: 425px) {
     .navbar-nav li {
         margin-bottom: -10px;
     }
     
     .btn-close {
-        margin-left: 300px;
+        margin-left: 400px;
         background-color:#60A97A;
+    }
+
+    .nav_huellitas ul {
+        gap: 35px;
+    }
+
+    .nav-item {
+        height: 60px;
+        width: 60px;
     }
 }
 

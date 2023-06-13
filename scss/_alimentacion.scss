@@ -88,10 +88,12 @@
         margin-bottom: 15px;
     }
 
-    figure .capa h3 {
-        color: $verde;
-        font-weight: 400;
-        margin-bottom: 20px;
+    .titulo_capa {
+        color: black;
+    }
+
+    .text_capa {
+        color: black;
     }
 
 }
