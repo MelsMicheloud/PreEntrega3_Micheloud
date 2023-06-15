@@ -400,7 +400,7 @@ p {
 }*/
 
 @media (min-width: 480px) {
-    .btn-close {
+/*    .btn-close {
         margin-left: 315px;
         background-color:#60A97A;
     }
@@ -413,12 +413,12 @@ p {
         grid-template-rows: 200px 50px 300px;
     }
 
-}
+}*/
 
 /*MEDIAS- TABLET*/
 
 @media (min-width: 768px) {
-    .navbar-nav li {
+    /*.navbar-nav li {
         margin-bottom: -30px;
     }
 
@@ -484,20 +484,20 @@ p {
         grid-template-columns: repeat(5, 1fr);
     }
     
-}
+}*/
 
 
 /*MEDIAS- desktop*/
 
 @media (min-width: 1024px) {
-    .nav_huellitas ul {
+    /*.nav_huellitas ul {
         gap: 90px;
     }
 
     .nav-item {
         height: 80px;
         width: 80px;
-    }
+    }*/
 
     .card_conteiner {
         grid-template-columns: repeat(4, 1fr);
@@ -550,14 +550,14 @@ p {
         margin: 15px;
     }
 
-    .img_golden_dest {
+    /*.img_golden_dest {
         width: 45%;
         margin-left: 370px;
     }
     
     .raza_destacada_del_mes {
         grid-template-rows: 200px 50px 300px;
-    }
+    }*/
 }
 
 @media (min-width: 1440px) {

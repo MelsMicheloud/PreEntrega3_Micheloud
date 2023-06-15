@@ -75,24 +75,15 @@ body {
 }
 
 /*Items nav seccion inicio / alimentacion*/
-.nav_huellitas ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-    padding-top: $margen-mediano;
-    padding-left: 0;
-
+.nav_huellitas ul {
+    @include flex-row-center;
+    
     img {
-        border-radius: 50%;
-        box-shadow: 0 0 0 5px rgba(70, 88, 165, .1);
-        transition: .2s;
+        @include img-transition;
     }
 
     li {
-        list-style: none;
-        height: 50px;
-        width: 50px;
+        @include li-style;
     }
 }
 .nav_huellitas img:hover{
@@ -188,7 +179,7 @@ footer {
 }
 
 /*MEDIAS - MOBILE*/
-@media (min-width: 425px) {
+@media (min-width: $mobile) {
     .navbar-nav li {
         margin-bottom: -10px;
     }
@@ -208,4 +199,91 @@ footer {
     }
 }
 
+@media (min-width: $tablet) {
+    .navbar-nav li {
+        margin-bottom: -30px;
+    }
+
+    .btn-close {
+        margin-left: 400px;
+        background-color:#60A97A;
+    }
+
+    .nav_huellitas ul {
+        gap: 70px;
+    }
+
+    .nav-item {
+        height: 80px;
+        width: 80px;
+    }
+
+    /*media razas*/
+    #grilla_banner {
+        grid-template-areas: 
+        "titulo img_portada"
+        "text_portada img_portada"
+        "text_portada img_portada";
+        grid-template-columns: repeat(2 ,1fr);
+        margin-bottom: 20px;
+    }
+
+    .img_portada {
+        padding-top: 10px;
+        height: 330px;
+    }
+
+    h1 {
+        margin: 3rem;
+    }
+
+    .text_portada {
+        font-size: 1rem;
+        text-align: center;
+        margin: 80px 20px;
+    }
+}
+
+@media (min-width: $desktop) {
+    .nav_huellitas ul {
+        gap: 90px;
+    }
+    
+    .nav-item {
+        height: 80px;
+        width: 80px;
+    }
+
+    /*media razas*/
+    #grilla_banner {
+        grid-template-areas: 
+        "titulo img_portada"
+        "text_portada img_portada"
+        "text_portada img_portada";
+        grid-template-columns: repeat(2 ,1fr);
+        margin-bottom: 10px;
+    }
+
+    .img_portada {
+        padding-top: 20px;
+        margin-left: 100px;
+        height: 400px;
+    }
+
+    h1 {
+        margin: 3rem;
+    }
+
+    .text_portada {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 80px;
+    }
+}
+
+@media (min-width: $desktop) {
+    .img_portada {
+        margin-left: 150px;
+    }
+}
 

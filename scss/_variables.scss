@@ -23,5 +23,28 @@ $margen-XXL: 5rem;
 /*Breackpoints*/
 $mobile: 425px;
 $tablet: 768px;
-$desktop: 1024px;
-$desktopL: 1200px;
+$desktop: 1200px;
+$desktopL: 1440px;
+
+/*MIXINS*/
+@mixin flex-row-center {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        padding-top: $margen-mediano;
+        padding-left: 0;
+}
+
+@mixin img-transition {
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px rgba(70, 88, 165, .1);
+    transition: .2s;
+}
+
+@mixin li-style {
+    list-style: none;
+    height: 50px;
+    width: 50px;
+}
+

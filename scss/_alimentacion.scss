@@ -44,7 +44,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /*height: 100vh;*/
     margin-top: 10px;
     margin-bottom: 10px;
     
@@ -98,4 +97,29 @@
 
 }
 
+@media (min-width: $tablet) {
+    .contenedor_card_alm {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+}
 
+@media (min-width: $desktop) {
+    .item3 {
+        grid-area: item3;
+            img {
+                width: 80%;
+        }
+    }
+}
+
+@media (min-width: $desktopL) {
+
+    .item3 {
+        grid-area: item3;
+            img {
+                width: 50%;
+        }
+    }
+}

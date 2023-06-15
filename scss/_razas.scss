@@ -24,3 +24,14 @@
     grid-template-columns: repeat(2, 1fr);
     column-gap: 5px;
 }
+
+/*MEDIAS*/
+@media (min-width: $tablet) {
+    #grilla_razas {
+        grid-template-areas: 
+        "img_perro img_perro img_perro img_perro img_perro"
+        "nombre_raza nombre_raza nombre_raza nombre_raza nombre_raza";
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+

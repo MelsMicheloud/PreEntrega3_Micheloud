@@ -13,7 +13,6 @@
     justify-content: center;
     align-items: center;
     font-family: $fuente-principal;
-    //padding: 10px 0px;
 }
 
 .card-container-art {
@@ -30,9 +29,7 @@
 
 .header-card {
     margin-right: 20px;
-    /*border-right: 1px solid $verde;*/
-
-
+    
     img{
         position:relative;
         display: block;
@@ -98,3 +95,41 @@
     border: none;
 }
 
+@media (min-width: $tablet) {
+    .card-container-art {
+        display: flex;
+        width: 600px;
+    }
+
+    .descripcion-art {
+        p {
+            margin: 30px 10px;
+        }
+
+        input {
+            margin-left: 250px;
+        }
+    }
+
+}
+
+@media (min-width: $desktop) {
+    .container_art {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0px 20px;
+        gap: 5px;
+    }
+
+    .header-card h4 {
+        font-weight: 400;
+        font-size: $fuente-chica;
+    }
+    
+}
+
+@media (min-width: $desktopL) {
+    .container_art {
+        margin-left: 60px;
+    }
+}
